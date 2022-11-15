@@ -20,9 +20,57 @@ body {
 }
 
 
-/* Navbar diseño */
+/* Navbar diseño  Bootstrap*/
 
-.menu {
+
+ .navbar{
+    background-color: #090808;
+    width: 100vw;
+}
+
+.nav-link{
+    font-size: 25px;
+    font-family: "DIN Next W01 Regular", Helvetica, Arial, sans-serif;
+    text-shadow: 0px 7px 40px #8e8e8e; 
+    
+}
+
+.navbar-brand{
+    margin-left: 5px;
+}
+
+.form-inline{
+    margin-right: 40px;
+   
+}
+
+.btn{
+    color: #efefef;
+}
+.minibar {
+    height: 38px;
+    width: 100vw;
+    margin-top: 0px;
+    background-color: #151515;
+    
+}
+
+.minibar_item {
+    padding: 5px;
+    color: #fff;
+}
+
+
+.minibar_item h1{
+    text-align: center;
+    font-size: smaller;
+}   
+
+
+/* ..........................................................Navbar anterior...................................................*/
+
+/*
+ .menu {
     background-color: #060606 ;
     height: 100px;
     width: 100vw;
@@ -30,7 +78,7 @@ body {
     justify-content: space-between;
     align-items: center;
     box-shadow: 5px 0 10px rgba(0, 0, 0, .6);
-}
+} 
 
 
 
@@ -52,15 +100,15 @@ body {
     display: block;
     text-transform: uppercase;
     color: #fff;
-}
+} 
 
 
 
 
 
-/* Diseño de boton para navbar en mobile */ 
+Diseño de boton para navbar en mobile 
 
-.btn_menu {
+ /* .btn_menu {
     margin-right: 30px;
     font-size: 25px;
     color: #fff;
@@ -101,11 +149,11 @@ body {
         margin: 30px 0 0 0;
         line-height: 30px;
     }
-}
+}  */
 
 /* Barra de Busqueda */
 
-.buscar{
+/* .buscar{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -148,16 +196,16 @@ body {
     .buscar:hover > .buscar_texto {
         width: 300px    ;
     }
-}
+}  */
 
 
 /* Mini Navbar */
 
-.minibar {
-    height: 30px;
+   /* .minibar {
+    height: 38px;
     width: 100vw;
     margin-top: 0px;
-    background-color: #141212;
+    background-color: #151515;
     
 }
 
@@ -166,10 +214,12 @@ body {
     color: #fff;
 }
 
+
 .minibar_item h1{
     text-align: center;
     font-size: smaller;
-}
+}    */
+
 
 
 
@@ -178,12 +228,20 @@ body {
 
 .footer {
     width: 100vw;
-    background-color: #202020;
+    background-color: #090808;
     bottom: 0px;
     margin-top: auto;
 }
 
-.footer .pie1 {
+.logofoot2{
+    width: 250px;
+}
+
+.minifoot{
+    background-color: #151515;
+}
+
+/* .footer .pie1 {
     width: 100vw;
     max-width: 1200px;
     margin: auto;
@@ -251,18 +309,21 @@ body {
     grid-gap: 30px;
     padding: 35px 0px;
     }
-}
+} */
 
 
 
 /* .............................................................Main del Home*................................................*/
 
+.carousel-inner{
+    width: 100vw;
+}
 
 
 .fondo{
     width: 100%;
     height: auto;
-   
+
 }
   
 .tituloCharachters{
@@ -636,4 +697,5 @@ p {
     position: fixed;
     filter: blur(900px);
    
-} 
+}  
+
