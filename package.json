@@ -1,0 +1,17 @@
+{
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test especified\" && exit 1",
+    "compile:sass": "node-sass sass/main.scss css/main.css --watch",
+    "build-css": "node-sass --include-path- scss scss/style.scss css/main.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "author": "Maximo",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.7.2",
+    "nodemon": "^1.14.11"
+  },
+  "description": ""
+}
