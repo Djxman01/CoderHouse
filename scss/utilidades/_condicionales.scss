@@ -1,0 +1,57 @@
+// Titulos y Subtitulos de las Cards
+
+@mixin condicion ($font-size) {
+    font-size: $font-size;
+
+    @if $font-size ==21px {
+        letter-spacing: 1px;
+        color: #060606;
+        text-transform: uppercase;
+        margin-top: 1vh;
+        padding-left: 8%;
+    }
+
+    @else {
+        font-size: 14px;
+        color: #6C7A89;
+        text-transform: uppercase;
+        margin-top: 1vh;
+        padding-left: 8%;
+    }
+}
+
+
+
+//   .cardsubtitle {
+//     padding-left: 8%;
+//     margin-top: 1vh;
+//     text-transform: uppercase;
+//     color: #060606;
+//     font-size: 21px;
+//     letter-spacing: 1px;
+//   }
+
+//   .cardsubsubtitle {
+//     padding-left: 8%;
+//     margin-top: 1vh;
+//     text-transform: uppercase;
+//     color: #6C7A89;
+//     font-size: 14px;
+//   }
+
+
+//   .cardsubtitle1 {
+//     padding-left: 8%;
+//     margin-top: 1vh;
+//     text-transform: uppercase;
+//     color: #060606;
+//     font-size: 21px;
+//     letter-spacing: 1px;
+//   }
+
+//   .cardsubsubtitle1 {
+//     padding-left: 8%;
+//     margin-top: 1vh;
+//     text-transform: uppercase;
+//     color: #6C7A89;
+//     font-size: 14px;

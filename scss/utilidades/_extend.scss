@@ -1,0 +1,14 @@
+%roundcardEstilos {
+    @include cards(350px, 600px, 300px, 300px, #fff, 50px, 3%, $text-shadow1);
+    overflow: hidden;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.roundcard {
+    @extend %roundcardEstilos;
+}
+
+.roundcard1 {
+    @extend %roundcardEstilos;
+}

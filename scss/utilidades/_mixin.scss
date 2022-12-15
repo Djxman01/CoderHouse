@@ -1,0 +1,45 @@
+// Titulos de Las diferentes paginas 
+
+@mixin titulos($letra-tam) {
+    font-size: $letra-tam;
+    padding: 30px;
+    color: #fff;
+    margin: 20px;
+    font-family: ITC serif gothic;
+}
+
+// Mixin para Cards
+
+@mixin cards($ancho, $alto, $alto-min, $ancho-min, $background-color, $margin, $border-radius, $box-shadow) {
+    width: $ancho;
+    height: $alto;
+    min-width: $alto-min;
+    min-height: $alto-min;
+    background-color: $background-color;
+    margin: $margin;
+    border-radius: $border-radius;
+    box-shadow: $box-shadow;
+}
+
+@mixin flex() {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+@mixin button() {
+    width: 160px;
+    height: 40px;
+    border-radius: 5px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    box-shadow: inset $text-shadow1;
+    outline: none;
+}
